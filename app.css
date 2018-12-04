@@ -1,0 +1,147 @@
+body {
+  background: #000;
+  color: #FFF;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*
+* CRAWL SCREEN
+*
+*/
+
+
+.star-wars #crawl {
+  padding: 30px 430px 260px 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  color: #feda4a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 500%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 400px;
+  text-align: justify;
+}
+
+
+.star-wars .crawl h1 {
+  color: red;
+  font-size: 120%;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/*
+* SIDEBAR
+*
+*/
+
+.star-wars aside {
+  background: green;
+  box-sizing: border-box;;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  position: fixed;
+  top: 0;
+  width: 400px;
+  z-index: 1;
+}
+
+.star-wars aside h3 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.star-wars aside h4 {
+  color: #FDCA3A;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.star-wars aside dl {
+  font-size: 18px;
+  margin: 40px 0;
+}
+
+.star-wars aside dt,
+.star-wars aside dd {
+  margin: 0 0 20px 0;
+}
+
+.star-wars aside dt {
+  clear: left;
+  float: left;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+
+
+/*
+* FOOTER
+*
+*/
+
+.star-wars footer {
+  background: pink;
+  box-sizing: border-box;;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  position: fixed;
+  z-index: 2;
+}
+
+
+/*
+* MOVIE CARDS
+*
+*/
+
+.movie {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 30px 0 0;
+  outline: none;
+  padding: 0;
+}
+
+.movie img {
+  border: 2px solid black;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 4px 4px rgba(0, 0, 0, .24);
+  margin: 0;
+  max-height: 160px;
+  outline: none;
+  transition: all .3s;
+}
+
+.movie img:hover {
+  border: 2px solid #00E9FF;
+  box-shadow: 0 0 16px rgba(0, 0, 0, .12), 0 16px 16px rgba(0, 0, 0, .24);
+}
+
+.movie.active img {
+  border: 2px solid #64DD17;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .12), 0 8px 8px rgba(0, 0, 0, .24);
+  margin: 0;
+  max-height: 160px;
+  outline: none;
+  transition: all .3s;
+}

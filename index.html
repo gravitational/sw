@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Star Wars Challenge</title>
+    <meta name="author" content="Gravitational, Inc.">
+    <meta name="description" content="Star Wars frontend challenge">
+
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+
+  <body>
+    <article id="app" class="star-wars">
+      <section id="crawl">
+        <div class="crawl">
+          <h1>Star Wars Challenge!</h1>
+
+          Welcome! Please follow the directions and complete the test in 1 hour. Good luck!
+        </div>
+      </section>
+
+      <aside id="info">
+        <h3>Title of Movie</h3>
+        <h4>Episode: <strong>1</strong></h4>
+
+        <dl id="info-list">
+          <dt>Director</dt>
+          <dd>George Lucas</dd>
+          <dt>Producer</dt>
+          <dd>Luke Skywalker</dd>
+          <dt>Release Data</dt>
+          <dd>May 31st, 1980</dd>
+        </dl>
+      </aside>
+
+      <footer id="movies">
+        <!-- Active button example -->
+        <button class="movie active" data-episode="1">
+          <img src="images/1.jpg" />
+        </button>
+
+        <button class="movie" data-episode="2">
+          <img src="images/2.jpg" />
+        </button>
+      </footer>
+    </article>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="dependancies/lodash.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
