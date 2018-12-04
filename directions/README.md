@@ -1,4 +1,4 @@
-###Directions
+### Directions
 Create a one page web app using the [Star Wars API](https://swapi.co/api/film).
 Refer to  *Spec.png* for an example of how the layout and visual design for this application should work. 
 
