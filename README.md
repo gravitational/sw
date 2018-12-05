@@ -1,4 +1,4 @@
-# Star War Challenge
+# Star Wars Challenge
 The Star Wars Frontend Challenge is a simple frontend test that involves coding a single page application in under an hour.  
 
 1. Read the directions in the `directions` directory. 
